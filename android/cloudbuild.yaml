@@ -12,7 +12,7 @@ steps:
   - 'build'
   - '--tag=gcr.io/$PROJECT_ID/android'
   - '--build-arg'
-  - 'android_version='dev'
+  - 'android_version=dev'
   - '--build-arg'
   - 'project_id=$PROJECT_ID'
   - '--file=Dockerfile-sdk'
